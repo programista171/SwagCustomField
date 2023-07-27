@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config>
+    <fields>
+        <int name="max_text_length" label="Maksymalna długość tekstu" />
+    </fields>
+</config>

@@ -1,0 +1,10 @@
+{% sw_extends '@Storefront/storefront/page/product-detail/description.html.twig' %}
+
+{% block page_product_detail_description %}
+    {% if product.customFields.custom_field %}
+        <div class="custom-field">
+            {{ product.customFields.custom_field | striptags | truncate(config('max_text_length')) }}
+        </div>
+    {% endif %}
+    {{ parent() }}
+{% endblock %}

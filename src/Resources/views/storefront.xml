@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/Framework/Resources/schema/view/view-1.0.xsd">
+    <name>storefront</name>
+    <priorities>
+        <priority>1</priority>
+    </priorities>
+    <views>
+        <view>Resources/views/storefront</view>
+    </views>
+</view>
